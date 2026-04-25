@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --background: #0a0a0f;
+  --accent: #00d4ff;
+  --muted: #6b7280;
+}
+
+body {
+  background-color: var(--background);
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 3px;
+}
+
+/* Leaflet: Voyager-Tiles bleiben lesbar, wir dämpfen sie nur minimal
+   damit sie zur dunklen UI passen, ohne unbenutzbar zu werden. */
+.leaflet-container {
+  background: #1a1a2e;
+}
+.leaflet-tile-pane {
+  filter: saturate(0.85) brightness(0.95);
+}
