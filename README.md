@@ -1,3 +1,5 @@
+> Entwickelt von Sebastian Islamyar — Frankfurt am Main.
+
 # Transit AI
 
 > **AI-gestützter ÖPNV-Navigator für Deutschland.**
@@ -184,6 +186,17 @@ transit-ai/
 - [ ] PWA / Offline-Modus
 
 ---
+## Über den Entwickler
+
+Ich bin **Sebastian Islamyar**, IT-Spezialist aus Frankfurt am Main mit Fokus auf Cybersecurity,
+KI-Infrastruktur, Self-Hosted LLMs, Netzwerkadministration und automatisierte Webprojekte.
+
+Transit AI ist ein Nebenprojekt — entstanden aus echtem Bedarf an einem datenschutzfreundlichen,
+KI-gestützten Bahnauskunftssystem ohne Google-Abhängigkeit.
+
+Weitere Projekte und Kontakt: [github.com/sudoshaco](https://github.com/sudoshaco)
+
+
 
 ## Lizenz
 
