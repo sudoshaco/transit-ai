@@ -1,4 +1,4 @@
-> Entwickelt von Sebastian Islamyar — Frankfurt am Main.
+> Entwickelt von **Sebastian Islamyar** — Frankfurt am Main.
 
 # Transit AI
 
